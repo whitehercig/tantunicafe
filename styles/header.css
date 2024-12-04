@@ -1,41 +1,30 @@
 header {
-    /* border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: grey; */
-    
-
     height: 75px;
 
-    padding-top: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
 
-    border-width: 2px;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: rgb(52, 167, 255);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    position: fixed;
-    top: 50px;
-    left: 500px;
-    right: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 .menu-img {
     display: flex;
     align-items: center;
-    width: 50px;
-    margin-left: 100px;
+    width: 66px;
 }
 .branch-img {
     display: flex;
     align-items: center;
-    width: 50px;
+    width: 64px;
 }
 .support-img {
     display: flex;
     align-items: center;
-    width: 50px;
-    margin-right: 100px;
+    width: 60px;
 }
