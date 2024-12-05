@@ -1,7 +1,9 @@
 body {
-    background-color: #EDF2F4;
-    font-family: Roboto;
+    background: url(../img/background3.jpg) no-repeat fixed center;
+    background-size: cover;
+    font-family: Montserrat;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
+    font-family: Montserrat;
 }
