@@ -1,0 +1,95 @@
+/* Общие стили */
+
+
+.container {
+  display: flex;
+  margin-top: 30px;
+  min-height: 100vh; /* Контейнер должен занимать всю высоту окна */
+}
+
+
+.menu {
+  margin-left: 25px;
+  box-shadow: 0 0 40px #00000099;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 20%; /* Задает ширину меню */
+  position: sticky; /* Меню остается на месте при прокрутке */
+  top: 35px; /* Оставляет отступ сверху, чтобы меню не прилипало вплотную */
+  background-color: #f8f8f8;
+  padding: 20px;
+  height: fit-content; /* Меню адаптируется по высоте содержимого */
+}
+
+
+.menu button {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.menu button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Контент */
+.content {
+  width: 80%;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+section {
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Карточки */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Кнопка с ценой */
+.price-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.price-btn:hover {
+  background-color: #218838;
+}
