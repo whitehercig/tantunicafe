@@ -9,14 +9,14 @@ header {
     padding-top: 30px;
     padding-left: 40px;
 
-    flex: 1 1;
+    flex: 1fr 2fr;
 }
 .left-section {
-    width: 21.4%;
+    width: 21.5%;
     height: 80px;
     display: flex;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 40px #00000099;
     border-radius: 10px;
 }
@@ -32,12 +32,18 @@ header {
 }
 .right-section {
     display: flex;
+    width: 55%;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 10px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.15);
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 650px;
-    height: 80px;
-    padding-right: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+    box-shadow: 0 0 40px #00000099;
 }
 .heading-links {
     font-size: 28px;
