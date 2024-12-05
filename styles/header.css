@@ -6,6 +6,9 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    padding-top: 30px;
+    padding-left: 40px;
+
     flex: 1 1;
 }
 .left-section {
@@ -15,8 +18,6 @@ header {
     align-items: center;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 40px #00000099;
-    margin-left: 40px;
-    margin-top: 40px;
     border-radius: 10px;
 }
 .logo {
@@ -28,4 +29,18 @@ header {
 .name {
     font-size: 25px;
     margin-left: 20px;
+}
+.right-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+    height: 80px;
+    padding-right: 100px;
+}
+.heading-links {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
 }
