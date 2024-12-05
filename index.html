@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -22,5 +23,68 @@
             <a class="heading-links" href="/">Контакты</a>
         </div>
     </header>
+    <div class="container">
+        <!-- Левое меню -->
+        <nav class="menu">
+            <button data-section="pizza">Пицца</button>
+            <button data-section="drinks">Напитки</button>
+            <button data-section="burgers">Бургеры</button>
+            <button data-section="wings">Крылышки</button>
+            <button data-section="doner">Донер</button>
+        </nav>
+    
+        <!-- Контент -->
+        <main class="content">
+          <!-- Секции -->
+          <section id="pizza">
+            <h2>Пицца</h2>
+            <div class="card">
+              <img src="img/margarita.png" alt="Пицца Маргарита">
+              <h3>Маргарита</h3>
+              <p>Классическая пицца с томатным соусом и сыром.</p>
+              <button class="price-btn">1800 тг</button>
+            </div>
+            <div class="card">
+              <img src="img/images.jpeg" alt="Пицца Пепперони">
+              <h3>Пепперони</h3>
+              <p>Острая пицца с пепперони и сыром моцарелла.</p>
+              <button class="price-btn">2000 тг</button>
+            </div>
+            <div class="card">
+              <img src="img/cheese-pizza.png" alt="Пицца 4 сыра">
+              <h3>4 Сыра</h3>
+              <p>Пицца с четырьмя видами сыра.</p>
+              <button class="price-btn">2500 тг</button>
+            </div>
+          </section>
+    
+          <!-- Аналогичные секции для других категорий -->
+          <!-- Напитки -->
+          <section id="drinks">
+            <h2>Напитки</h2>
+            <!-- Добавьте карточки -->
+          </section>
+    
+          <!-- Бургеры -->
+          <section id="burgers">
+            <h2>Бургеры</h2>
+            <!-- Добавьте карточки -->
+          </section>
+    
+          <!-- Крылышки -->
+          <section id="wings">
+            <h2>Крылышки</h2>
+            <!-- Добавьте карточки -->
+          </section>
+    
+          <!-- Донер -->
+          <section id="doner">
+            <h2>Донер</h2>
+            <!-- Добавьте карточки -->
+          </section>
+        </main>
+      </div>
+    
+      <script src="scripts/script.js"></script>
 </body>
 </html>
