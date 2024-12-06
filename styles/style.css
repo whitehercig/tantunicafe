@@ -1,15 +1,11 @@
-/* Общие стили */
-
-
 .container {
   display: flex;
   margin-top: 30px;
-  min-height: 100vh; /* Контейнер должен занимать всю высоту окна */
 }
 
 
 .menu {
-  box-shadow: 0 0 40px #00000099;
+  /* box-shadow: 0 0 40px #00000099; */
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -27,53 +23,52 @@
 .menu button {
   margin: 10px 0;
   padding: 10px;
-  border: none;
-  background-color: #007bff;
+  background-color: rgba(0,0,0,0);
+  border-width: 2px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
   color: white;
   cursor: pointer;
-  border-radius: 5px;
   font-size: 16px;
-  transition: transform 0.2s, background-color 0.3s;
+  transition: transform 0.2s;
 }
 
 .menu button:hover {
-  background-color: #0056b3;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
+
+
 
 /* Контент */
 .content {
   width: 80%;
-  box-shadow: 0 0 40px #00000099;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 20px;
-  overflow-y: auto;
-
 }
 
 section {
   margin-bottom: 50px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.15);
-
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 34px;
   margin-bottom: 20px;
+  margin-left: 400px;
 }
 
 /* Карточки */
 .card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
   flex: 1;
-  padding: 15px;
-  width: 45%;
+  padding: 5px;
+  width:80%;
+  height: 95%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); */
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .card img { 
@@ -89,20 +84,64 @@ h2 {
 
 /* Кнопка с ценой */
 .price-btn {
-  background-color: #28a745;
+  background-color: rgba(0,0,0,0);
+  border-width: 2px;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: white;
   color: white;
-  border: none;
-  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px 25px;
   cursor: pointer;
-  border-radius: 5px;
   transition: background-color 0.3s;
+  transition: opasity 0.3s;
 }
 
 .price-btn:hover {
-  background-color: #218838;
+  opacity: 0.6;
 }
 .podmenu {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+}
+#pizza {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+#drinks {
+
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+
+}
+#doner {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+
+}
+#wings {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+
+}
+#burgers {
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 20px;
+
+}
+img {
+  width: 150px;
+  height: 200px;
+}
+.menu-buttons {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  
 }

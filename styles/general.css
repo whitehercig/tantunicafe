@@ -1,9 +1,14 @@
+
 body {
-    background: url(../img/background3.jpg) no-repeat fixed center;
-    background-size: cover;
+    background-color: #231E20;
+    /* background: fixed, no-repea  t, center, url(../img/coffee_break-wallpaper-1920x1080.jpg); */
+    background-size: contain;
     font-family: Montserrat;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
     font-family: Montserrat;
+}
+h2 {
+    color: white;
 }

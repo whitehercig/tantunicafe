@@ -1,6 +1,7 @@
 header {
     height: 75px;
 
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,7 +18,7 @@ header {
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.15);
-    box-shadow: 0 0 40px #00000099;
+    /* box-shadow: 0 0 40px #00000099; */
     border-radius: 10px;
 }
 .logo {
@@ -29,6 +30,7 @@ header {
 .name {
     font-size: 25px;
     margin-left: 20px;
+    color: white;
 }
 .right-section {
     display: flex;
@@ -43,10 +45,10 @@ header {
     justify-content: space-between;
     padding-right: 150px;
     padding-left: 150px;
-    box-shadow: 0 0 40px #00000099;
+    /* box-shadow: 0 0 40px #00000099; */
 }
 .heading-links {
     font-size: 28px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
