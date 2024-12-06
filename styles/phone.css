@@ -23,7 +23,7 @@
     align-items: center;
     position: fixed;
     top: 40px;
-    left: 40px;
+    left: 37px;
   
     width: 66px;
     height: 56px;
@@ -100,7 +100,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
     padding-top: 20px;
     padding-left: 30px;
 
@@ -114,7 +113,7 @@
     background-color: rgba(0, 0, 0, 0.15);
     box-shadow: 0 10px 30px #00000099;
     border-radius: 10px;
-    margin-left: 131px;
+    margin-left: 126px;
 }
 .logo {
     width: 65px;
@@ -126,4 +125,22 @@
     font-size: 25px;
     margin-left: 20px;
     color: white;
+}
+
+.container {
+  margin-top: 40px;
+  width: 414px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.container h1 {
+  margin-left: 170px;
+}
+
+.podmenu { 
+  width: 400px;
+  height: 270px; 
+  background-color: #333;
+  border-radius: 15px;
 }
