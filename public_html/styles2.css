@@ -1,0 +1,120 @@
+:root {
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --header-bg: linear-gradient(135deg, #6a11cb, #2575fc);
+    --button-bg: #ffffff;
+    --button-hover-bg: #e0e0e0;
+    --border-color: #ddd;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: var(--header-bg);
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 10px var(--shadow);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px var(--shadow);
+}
+
+.categories {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.categories {
+    border-right: 2px solid var(--border-color);
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: var(--header-bg);
+}
+
+.button {
+    background-color: var(--button-bg);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px var(--shadow);
+}
+
+.button:hover {
+    background-color: var(--button-hover-bg);
+    transform: translateY(-2px);
+}
+
+ol {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ol li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 1px 5px var(--shadow);
+}
+
+ol li:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 10px var(--shadow);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .categories {
+        border-right: none;
+        border-bottom: 2px solid var(--border-color);
+    }
+}
+
+footer {
+    background-color: var(--header-bg);
+    color: #000;
+    padding: 10px;
+    box-shadow: 0 -2px 10px var(--shadow);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
